@@ -65,8 +65,9 @@ a {
 .post-content {
 	display: table-cell;
 	vertical-align: middle;
-	padding-left: 7em;
-	padding-right: 14em;
+	padding-left: 20em;
+	padding-right: 20em;
+
 	
 }
 
@@ -556,15 +557,17 @@ body {
    ========================================================================== */
 
 #nav {
-	position: absolute;
-	right: 60px;
-	margin-top: 11px;
+	position: relative;
+	margin-top: -20px;
 	background: transparent;
 	z-index: 70;
 	transition: all ease-out 0.4s;
 	transform: translate3d(0,0,0);
 	transform-style: preserve-3d;
 	opacity: 1;
+	width: 100%;
+	background-color: rgba(255,255,255,0.85);
+	height: 45px;
 	
 
 	&:after {
@@ -884,6 +887,7 @@ body {
 	
 		a {
 		margin: 1.5em;
+		float: right;
 		}
 	}
 
@@ -1208,13 +1212,13 @@ body {
 
 	.post-header {
 		margin-bottom: 3em;
-	
+
 	}
 	
 }
 #inner-header {
-			padding-left: 7em;
-			padding-right: 14em;
+			padding-left: 10em;
+			padding-right: 15em;
 	}
 
 /* ==========================================================================
@@ -1229,7 +1233,6 @@ body {
 	transition: all ease-in 0.5s;
 	z-index: 10;
 	
-
 }
 
 .loading {
@@ -1370,6 +1373,7 @@ body {
 
 			.post-title {
 				color: #fff;
+
 			}
 
 			.post-more a {
